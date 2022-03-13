@@ -42,15 +42,6 @@ namespace ckennedy8728_A1
         protected global::System.Web.UI.WebControls.Button btnGreen;
 
         /// <summary>
-        /// btnApplyAll control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnApplyAll;
-
-        /// <summary>
         /// btnReverse control.
         /// </summary>
         /// <remarks>
@@ -58,6 +49,33 @@ namespace ckennedy8728_A1
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnReverse;
+
+        /// <summary>
+        /// btnBold control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnBold;
+
+        /// <summary>
+        /// btnItalic control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnItalic;
+
+        /// <summary>
+        /// btnApplyAll control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnApplyAll;
 
         /// <summary>
         /// lblEntry control.
@@ -78,21 +96,75 @@ namespace ckennedy8728_A1
         protected global::System.Web.UI.WebControls.Label lblError;
 
         /// <summary>
-        /// btnBold control.
+        /// txtIntToBinary control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnBold;
+        protected global::System.Web.UI.WebControls.TextBox txtIntToBinary;
 
         /// <summary>
-        /// btnItalic control.
+        /// btnBinarySubmit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnItalic;
+        protected global::System.Web.UI.WebControls.Button btnBinarySubmit;
+
+        /// <summary>
+        /// lblBinaryOutput control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblBinaryOutput;
+
+        /// <summary>
+        /// lblIntErrors control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblIntErrors;
+
+        /// <summary>
+        /// txtBinaryToInt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtBinaryToInt;
+
+        /// <summary>
+        /// btnIntSubmit control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnIntSubmit;
+
+        /// <summary>
+        /// lblIntOutput control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblIntOutput;
+
+        /// <summary>
+        /// lblBinaryErrors control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblBinaryErrors;
     }
 }

@@ -5,29 +5,51 @@
     <div class="jumbotron">
         <h1>Vlarg Interface V1443234566</h1>
         <p class="lead">Enter some text here: </p>
-        <asp:TextBox ID="txtEntry" runat="server" Width="542px" TabIndex="1"></asp:TextBox>
+        <asp:TextBox ID="txtEntry" runat="server" Width="517px" TabIndex="1" Height="25px"></asp:TextBox>
         &nbsp;&nbsp;&nbsp;
-        <asp:Button ID="btnSubmit" runat="server" OnClick="btnSubmit_Click" Text="Submit" Width="135px" />
+        <asp:Button ID="btnSubmit" runat="server" OnClick="btnSubmit_Click" Text="Submit" Width="114px" Height="29px" />
         <br />
         <br />
-        <asp:Button ID="btnGreen" BackColor="#00CC00" runat="server" Text="Change Colour" OnClick="btnGreen_Click" Font-Bold="True" ForeColor="#990033" TabIndex="2" Width="132px" />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="btnApplyAll" runat="server" OnClick="btnApplyAll_Click" Text="Apply All!" Width="146px" />
+        <asp:Button ID="btnGreen" BackColor="#00CC00" runat="server" Text="Change Colour" OnClick="btnGreen_Click" Font-Bold="True" ForeColor="#990033" TabIndex="2" Width="118px" Height="31px" />
+        &nbsp;&nbsp;<asp:Button ID="btnReverse" runat="server" OnClick="btnReverse_Click" Text="esreveR" Width="86px" Height="31px" />
+        &nbsp;&nbsp;<asp:Button ID="btnBold" runat="server" OnClick="btnBold_Click" Text="Bold" Width="115px" Height="31px" Font-Bold="True" />
+        &nbsp;<asp:Button ID="btnItalic" runat="server" OnClick="btnItalic_Click" Text="Italicized" Width="119px" Height="31px" Font-Italic="True" />
+        &nbsp;<asp:Button ID="btnApplyAll" runat="server" OnClick="btnApplyAll_Click" Text="Apply All!" Width="134px" Height="33px" />
         <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <br />
-        <asp:Button ID="btnReverse" runat="server" OnClick="btnReverse_Click" Text="esreveR" Width="134px" />
-        <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:Label ID="lblEntry" runat="server" Text="Label"></asp:Label>
         <asp:Label ID="lblError" runat="server" Text="Label"></asp:Label>
         <br />
-        <asp:Button ID="btnBold" runat="server" OnClick="btnBold_Click" Text="Bold" Width="135px" />
-        <br />
-        <br />
-        <asp:Button ID="btnItalic" runat="server" OnClick="btnItalic_Click" Text="Italicized" Width="135px" />
         <br />
         <br />
         <br />
+        <br />
+    </div>
+    <div class="jumbotron">
+        <h3>Convert D2B</h3>
+        <p>Enter a whole number to convert to binary: </p>
+        <p>
+            <asp:TextBox ID="txtIntToBinary" runat="server" Height="22px" Width="269px"></asp:TextBox>
+&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="btnBinarySubmit" runat="server" Height="31px" OnClick="btnBinarySubmit_Click" Text="Convert" Width="129px" />
+        </p>
+        <p>
+            <asp:Label ID="lblBinaryOutput" runat="server" Text="Label"></asp:Label>
+            <asp:Label ID="lblIntErrors" runat="server" Text="Label"></asp:Label>
+        </p>
+        <h3>Convert B2D</h3>
+        <p>Enter binary number to convert to decimal</p>
+        <p>
+            <asp:TextBox ID="txtBinaryToInt" runat="server" Height="22px" Width="269px"></asp:TextBox>
+&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="btnIntSubmit" runat="server" Height="31px" OnClick="btnIntSubmit_Click" Text="Convert" Width="129px" />
+        </p>
+        <p>
+            <asp:Label ID="lblIntOutput" runat="server" Text="Label"></asp:Label>
+            <asp:Label ID="lblBinaryErrors" runat="server" Text="Label"></asp:Label>
+        </p>
+
     </div>
 
    
