@@ -30,7 +30,7 @@
         <h3>Convert D2B</h3>
         <p>Enter a whole number to convert to binary: </p>
         <p>
-            <asp:TextBox ID="txtIntToBinary" runat="server" Height="22px" Width="269px"></asp:TextBox>
+            <asp:TextBox ID="txtIntToBinary" runat="server" Height="28px" Width="271px"></asp:TextBox>
 &nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Button ID="btnBinarySubmit" runat="server" Height="31px" OnClick="btnBinarySubmit_Click" Text="Convert" Width="129px" />
         </p>
@@ -41,7 +41,7 @@
         <h3>Convert B2D</h3>
         <p>Enter binary number to convert to decimal</p>
         <p>
-            <asp:TextBox ID="txtBinaryToInt" runat="server" Height="22px" Width="269px"></asp:TextBox>
+            <asp:TextBox ID="txtBinaryToInt" runat="server" Height="27px" Width="278px"></asp:TextBox>
 &nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Button ID="btnIntSubmit" runat="server" Height="31px" OnClick="btnIntSubmit_Click" Text="Convert" Width="129px" />
         </p>

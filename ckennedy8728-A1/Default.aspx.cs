@@ -171,11 +171,6 @@ namespace ckennedy8728_A1
         protected void btnIntSubmit_Click(object sender, EventArgs e)
         {
 
-            ConvertBinary();
-        }
-
-        public void ConvertBinary() 
-        {
             if (txtBinaryToInt.Text == "")
             {
                 lblBinaryErrors.Visible = true;
@@ -206,7 +201,6 @@ namespace ckennedy8728_A1
                 lblIntOutput.Text = decimalOutput.ToString();
             }
         }
-
 
     }
 }
