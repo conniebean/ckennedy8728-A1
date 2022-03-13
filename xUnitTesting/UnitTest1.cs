@@ -28,5 +28,32 @@ namespace xUnitTesting
 
             Assert.Equal(expectedResult, actualResult);
         }
+
+        [Theory]
+        [InlineData(5, "101")]
+        public void IsDecimalTest(int input, string expectedResult)
+        {
+            int numEntry = input;
+
+            int val;
+            string actualResult = "";
+
+            while (numEntry >= 1)
+            {
+                val = numEntry / 2;
+                actualResult += (numEntry % 2).ToString();
+                numEntry = val;
+            }
+
+            string binaryConversion = "";
+            for (int i = actualResult.Length - 1; i >= 0; i--)
+            {
+                binaryConversion = binaryConversion + actualResult[i];
+            }
+
+            actualResult = binaryConversion;
+
+            Assert.Equal(expectedResult, actualResult);
+        }
     }
 }
