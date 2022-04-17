@@ -1,6 +1,7 @@
 using System;
 using Xunit;
 using ckennedy8728_A1;
+using System.Linq;
 
 namespace xUnitTesting
 {
@@ -54,6 +55,21 @@ namespace xUnitTesting
             actualResult = binaryConversion;
 
             Assert.Equal(expectedResult, actualResult);
+        }
+
+        [Theory]
+        [InlineData("abc", "cba")]
+        public void IsReveresed(string input, string expectedResult) 
+        {
+            string entry = input;
+
+            string actualResult = "";
+
+            string reverseEntry = string.Join(" ", entry.Split(' ').Select(s => new String(s.Reverse().ToArray())));
+            actualResult = reverseEntry;
+
+            Assert.Equal(expectedResult, actualResult);
+            
         }
     }
 }

@@ -140,7 +140,7 @@ namespace ckennedy8728_A1
             else if (int.Parse(txtIntToBinary.Text) <= 0)
             {
                 lblIntErrors.Visible = true;
-                lblIntErrors.Text = "Please enter a whole number abover ZERO to convert";
+                lblIntErrors.Text = "Please enter a whole number above ZERO to convert";
             }
             else
             {
